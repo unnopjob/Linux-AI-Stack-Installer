@@ -33,14 +33,14 @@ chmod +x install.sh
 ### Run directly from GitHub
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/unnopjob/install-ubuntu-ai-stack/main/install.sh | bash -s --
+curl -fsSL https://raw.githubusercontent.com/unnopjob/Linux-AI-Stack-Installer/main/install.sh | bash -s --
 ```
 
 The direct GitHub form also supports arguments:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/unnopjob/install-ubuntu-ai-stack/main/install.sh | bash -s -- --status
-curl -fsSL https://raw.githubusercontent.com/unnopjob/install-ubuntu-ai-stack/main/install.sh | bash -s -- --open-flowise
+curl -fsSL https://raw.githubusercontent.com/unnopjob/Linux-AI-Stack-Installer/main/install.sh | bash -s -- --status
+curl -fsSL https://raw.githubusercontent.com/unnopjob/Linux-AI-Stack-Installer/main/install.sh | bash -s -- --open-flowise
 ```
 
 When you run it in a terminal, long steps show a live spinner automatically and the installer tags phases as `[1/8]`, `[2/8]`, and so on.
